@@ -17,7 +17,6 @@ def preenche_dicionario(dicionario, palavras):
         else:
             dicionario[palavra] = 1
     
-
 arquivo_texto = pd.read_csv("corpus-q2.csv")
 json_dicionario = {}
 
